@@ -535,7 +535,7 @@ Transform:
   m_GameObject: {fileID: 195881901}
   serializedVersion: 2
   m_LocalRotation: {x: -0.1766644, y: -0.083980046, z: 0.014713504, w: -0.9805716}
-  m_LocalPosition: {x: 0.25789276, y: 5.4610677, z: -5.4481187}
+  m_LocalPosition: {x: 0.2587984, y: 5.4610686, z: -5.448275}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -877,6 +877,23 @@ MonoBehaviour:
   VectorY: 0
   VectorZ: 0
   speed: 5
+  actionJump:
+    m_Name: Action Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a19de60b-213c-40f4-8d12-e213ff1fb9da
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: df53e302-ee56-42a1-93c5-57dee6f9ee98
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Action Jump
+      m_Flags: 0
+    m_Flags: 0
 --- !u!4 &357739772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400066, guid: d9b4f1437b749dc43bb121e0b4726e21, type: 3}
@@ -1375,9 +1392,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -536.3, y: -245.4}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.4320127, y: 0.5}
+  m_AnchoredPosition: {x: -499.16617, y: -241.98471}
+  m_SizeDelta: {x: 93.2874, y: 54.0768}
+  m_Pivot: {x: 0.4132024, y: 0.34951907}
 --- !u!114 &566497659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1847,7 +1864,7 @@ Transform:
   m_GameObject: {fileID: 1113930414}
   serializedVersion: 2
   m_LocalRotation: {x: -0.1766644, y: -0.083980046, z: 0.014713504, w: -0.9805716}
-  m_LocalPosition: {x: 0.25789276, y: 5.4610677, z: -5.4481187}
+  m_LocalPosition: {x: 0.2587984, y: 5.4610686, z: -5.448275}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
